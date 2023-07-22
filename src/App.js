@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { faker } from "@faker-js/faker";
 
+// This function creactes a random blog post with fake title and body
 function createRandomPost() {
   return {
     title: `${faker.hacker.adjective()} ${faker.hacker.noun()}`,
